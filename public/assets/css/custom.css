@@ -1,0 +1,25 @@
+.verified-badge-text {
+  color: #d742a2;
+  font-size: 12px;
+  font-weight: 800;
+}
+.user-follow:hover,
+.user-follow:active,
+.user-follow:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+  border-color: #357ebd !important;
+}
+.s-icon {
+  margin-right: 3rem !important;
+}
+
+.s_icon_16 {
+  width: 32px;
+  height: 32px;
+  margin-right: 2px;
+  object-fit: cover;
+}
+.mb-10 {
+  margin-bottom: 2rem;
+}

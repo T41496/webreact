@@ -1,0 +1,36 @@
+.static-page-sec {
+  margin-top: 85px;
+  font-family: "Roboto", sans-serif;
+}
+
+.static-box {
+  background: var(--secondary-color);
+  padding: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+  border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.static-box h1 {
+  font-size: 4em;
+  text-align: center;
+  color: rgb(44, 48, 52);
+  margin: 0;
+  padding: 0 0 6px 0;
+}
+.static-box h2 {
+  font-size: 2em;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(44, 48, 52);
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+.static-box p {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  color: rgb(44, 48, 52);
+  margin: 0;
+  padding: 10px 0 0 0;
+}

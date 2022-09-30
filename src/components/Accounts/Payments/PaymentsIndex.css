@@ -1,0 +1,274 @@
+.payment-sec{
+    margin-top: 85px;
+    /* font-family: 'Roboto', sans-serif; */
+    padding-bottom: 4em;
+}
+
+.payment-card {
+    -webkit-box-shadow: 0 0 0 1px rgba(138,150,163,.2) inset;
+    box-shadow: inset 0 0 0 1px rgba(138,150,163,.2);
+    border-radius: 6px;
+}
+
+.payment-sec .payment-cover{
+    width: 100%;
+    height:10em;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.payment-sec .paymnet-user-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2em;
+}
+
+.payment-sec .paymnet-user-info .payment-user-details{
+    padding-left: 1em;
+}
+
+.payment-sec .profile-img {
+    border-radius: 50%;
+    border: 4px solid var(--secondary-color);
+    height: 100px;
+    width: 100px;
+    margin-top: -4em;
+    object-fit: cover;
+}
+
+.payment-user-details .title {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 0px;
+    line-height: 1.3;
+}
+
+.payment-user-details .desc{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: var(--primary-color);
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.payment-body-icon {
+    width: 4em;
+    height: 4em;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.payment-body-icon i{
+    font-size: 1.8em;
+    color: var(--secondary-color);
+}
+
+.payment-body-info{
+    padding-left: 1.5em;
+}
+
+.payment-body{
+    padding:2em;
+}
+
+.payment-body h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--quaternary-color);
+}
+
+.payment-body h4{
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #222222;
+    padding-left: 0.3em;
+    margin-bottom: 0;
+}
+
+.padding-sm {
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+}
+
+.space-sm {
+   margin-bottom: 2em;
+}
+
+.payment-refer-add-box {
+    -webkit-box-shadow: 0 0 0 1px rgba(138,150,163,.2) inset;
+    box-shadow: inset 0 0 0 1px rgba(138,150,163,.2);
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; 
+    margin: 2em 0;
+}
+
+.payment-footer h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-bottom: 0;
+}
+
+.payment-body h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.payment-footer{
+    background: var(--primary-color);
+    padding: 1em 2em;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; 
+}
+
+.payment-refer-add-box .sign-in-logo img{
+    margin: 1em 0;
+}
+
+.payment-tabs-card{
+    background-color: var(--secondary-color);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 5px rgba(0,0,0,.05);
+    background-color: var(--secondary-color);
+    padding: 2em;
+}
+
+.payment-tabs-card .nav-tabs .nav-link.active {
+    background-color: #E85DBE;
+    color: var(--secondary-color);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.payment-tabs-card .nav-tabs .nav-link.active:hover,
+.payment-tabs-card .nav-tabs .nav-link.active:focus{
+    color: var(--secondary-color)!important;
+    outline: none;
+}
+
+.payment-tabs-card .nav-tabs .nav-link:hover,
+.payment-tabs-card .nav-tabs .nav-link:focus{
+    color: #222222!important;
+    outline: none;
+}
+
+.payment-tabs-card .nav-tabs .nav-link{
+    background-color: #eeeeee;
+    color: #222222;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-weight: 600;
+    font-size: 1.4em;
+    padding:0.5em 2em;
+    margin-right: 0.4em;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.payment-tabs-card .payment-tabs-content tr{
+    background-color:#f0f8ff;
+}
+
+.bg-white{
+    background-color: var(--secondary-color);
+}
+
+.payment-tabs-card .payment-tabs-content td {
+    font-size: 1.2em;
+    font-weight: 400;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.payment-tabs-card .payment-tabs-content th {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--quaternary-color);
+    border-bottom: 1px solid var(--primary-color);
+    white-space: nowrap;
+}
+
+.payment-tabs-card .nav-tabs{
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.payment-tabs-card h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 1em;
+}
+
+.payment-tabs-card .fa-clock {
+    color: #FF0000;
+}
+
+.payment-tabs-card .fa-check-circle{
+    color: var(--primary-color);
+}
+
+.payment-tabs-card .tick{
+    color: var(--primary-color);
+}
+
+.payment-tabs-card .payment-tabs-content p{
+    margin-bottom: 0;
+}
+
+.payment-sec .send-withdraw-btn{
+    overflow: visible;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    background: #E85DBE;
+    /* min-width: 78px; */
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding:5px 20px;
+    border: 1px solid rgba(138, 150, 163, 0.25) !important;
+    color: var(--secondary-color);
+    border-radius: 1000px;
+}
+
+.payment-sec .send-withdraw-btn:hover,
+.payment-sec .send-withdraw-btn:focus,
+.payment-sec .send-withdraw-btn:active{
+    background: #E85DBE !important;
+    color: var(--secondary-color)!important;
+}
+
+.payment-sec ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.payment-sec ::-webkit-scrollbar
+{
+	width: 5px;
+    height: 5px;
+	background-color: #F5F5F5;
+}
+
+.payment-sec ::-webkit-scrollbar-thumb
+{
+	background-color: var(--primary-color);
+	border: 2px solid var(--primary-color);
+}

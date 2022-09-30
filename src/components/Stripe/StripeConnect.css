@@ -1,0 +1,32 @@
+.stripe-page {
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+.head-title{
+    text-align: center;
+}
+
+.stripe-content{
+    margin-top:50px;
+}
+
+.stripe-page p {
+    font-size: 18px !important;
+}
+
+#connect_with_stripe {
+	width: 500px;
+    height: 62px;
+    font-size: 22px;
+    background-color: #635bff;
+}
+
+.stripe-page  a button {
+    background: linear-gradient(45deg, #635bff, #847dff);
+    padding: 8px 30px;
+    border-bottom: 1px solid #635bff;
+    border-radius: 30px;
+    outline: none !important;
+}

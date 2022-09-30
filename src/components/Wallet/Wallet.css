@@ -1,0 +1,168 @@
+.wallet-sec {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 85px;
+    background-color: #d9e5f3;
+    padding-bottom: 3em; 
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.wallet-header-details{
+    display: flex;
+    align-items: center;
+}
+
+.wallet-header-details h3 {
+    padding-left: 1.2em;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+.wallet-header-details h3 .amount-decimal {
+    font-size: 0.65em;
+    font-weight: 500;
+    color: #767b7f;
+}
+
+.wallet-header-details h3 .amount-abb{
+    color: #828282;
+    font-size: 0.65em;
+    padding-left: 1em;
+    font-weight: 500;
+    color: #a6b3c2;
+}
+
+.wallet-header-card h5 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.send-btn-white {
+    border: none!important;
+    padding: 8px 30px!important;
+    font-size: 13px!important;
+    color: #222222!important;
+    font-weight: 500!important;
+    background: var(--secondary-color)!important;
+    border-radius: 1000px!important;
+    -webkit-transition: opacity .15s ease,background-color .15s ease,-webkit-box-shadow .15s ease;
+    transition: opacity .15s ease,background-color .15s ease,-webkit-box-shadow .15s ease;
+    transition: opacity .15s ease,background-color .15s ease,box-shadow .15s ease;
+    transition: opacity .15s ease,background-color .15s ease,box-shadow .15s ease,-webkit-box-shadow .15s ease;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.send-btn-white:hover{
+    background: var(--secondary-color)!important; 
+    color: #222222!important;
+}
+
+.receive-btn-blue {
+    border: none!important;
+    padding: 8px 30px!important;
+    font-size: 13px!important;
+    color: var(--secondary-color)!important;
+    font-weight: 500!important;
+    background: var(--primary-color)!important;
+    border-radius: 1000px!important;
+    -webkit-transition: opacity .15s ease,background-color .15s ease,-webkit-box-shadow .15s ease;
+    transition: opacity .15s ease,background-color .15s ease,-webkit-box-shadow .15s ease;
+    transition: opacity .15s ease,background-color .15s ease,box-shadow .15s ease;
+    transition: opacity .15s ease,background-color .15s ease,box-shadow .15s ease,-webkit-box-shadow .15s ease;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.receive-btn-blue:hover{
+    background: var(--primary-color)!important; 
+    color: var(--secondary-color)!important;
+}
+
+.trans-table-sec{
+    /* background-color: #f5f9fd; */
+    padding: 2em 0;
+    margin-bottom: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.trans-table-sec h4 {
+    color: #969fb1;
+    font-size: 1.2em;
+    line-height: 1.3;
+    margin-bottom: 1em;
+}
+
+.trans-table-sec .trans-table tr{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.trans-table-sec .trans-table td {
+    /* border-top: 1px solid #edf0f5; */
+    padding: 2em;
+    background-color: var(--secondary-color);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: #a6b3c2;
+}
+
+.trans-table-sec .trans-table td:first-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.trans-table-sec .trans-table td:last-child{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.trans-table-sec .trans-table .table {
+    border-collapse: separate;
+    border-spacing:0 10px;
+}
+
+.trans-table .amount{
+    font-size: 1.2em!important;
+    font-weight: 600;
+    color: #222222!important;
+}
+
+.trans-table .fa-minus{
+    font-size: 0.7em;
+    color: #ef719a;
+}
+
+.trans-table .fa-plus{
+    font-size: 0.7em;
+    color: var(--primary-color);
+}
+
+.trans-table .unconfirmed-badge.badge{
+    background-color: #fbedf4;
+    color: #ef719a;
+    font-size: 0.9em;
+    margin-right: 15px;
+    padding: 0.8em;
+}
+
+.trans-table .confirmed-badge.badge{
+    background-color: #fdfce6;
+    color: #ded74b;
+    font-size: 0.9em;
+    margin-right: 15px;
+    padding: 0.8em;
+}
+
+.wallet-sec .edit-save {
+    padding-top: 1.4em!important;
+    padding:0;
+}

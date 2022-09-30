@@ -1,0 +1,21 @@
+.add-bank-box{
+    background: var(--secondary-color);
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+    border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.add-bank-box .form-label {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--quaternary-color);
+    padding: 12px 6px;
+    margin: 0;
+}
+
+.add-bank-box .form-control::placeholder {
+    font-size: 0.8em;
+}

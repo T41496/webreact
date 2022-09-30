@@ -1,0 +1,141 @@
+.card-list-sec{
+    margin-top: 85px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.card-list-box {
+    background: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+    border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.cursor-pointer-link {
+    cursor: pointer;
+}
+
+.credit-img {
+    max-width: 4em;
+}
+
+.card-list-box h5{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--tertiary-color);
+    letter-spacing: 0.002em;
+}
+
+.card-link-text {
+    font-weight: 500;
+    font-size: 1.4em;
+    color: var(--secondary-color);
+    margin-bottom: 0;
+    text-transform: capitalize;
+    margin-right: 1em;
+}
+
+.payment-bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.action-btn{
+    display: flex;
+    align-items: center;
+}
+
+.head-title {
+    letter-spacing: 0.8px;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 2em;
+    border-bottom:1px solid var(--septenary-color);
+    padding-bottom: 1em;
+}
+
+.add-card-img {
+    max-width: 6em;
+    margin-bottom: 1em;
+}
+
+.add-account-sec{
+    text-align: center;
+}
+
+.add-account-modal .modal-content {
+    margin: auto;
+    width: 380px;
+}
+
+.add-card-modal .close{
+    font-size: 3em;
+    color: var(--secondary-color);
+}
+
+.add-card-modal .close:hover{
+    color: var(--secondary-color);
+}
+
+.add-card-modal .user-profile-img{
+    text-align: center;
+}
+
+.add-card-modal .user-profile-img img{
+    width: 100px;
+    height: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -6em;
+}
+
+.add-card-modal .add-card-content-header{
+    text-align: center;
+}
+
+.add-card-modal .add-card-content-header .media {
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.add-card-modal .add-card-content-header .media span{
+    padding-left: 1em;
+}
+
+.add-card-modal .add-card-content-header .media i{
+    color: var(--primary-color);
+}
+
+.add-card-user-name {
+    font-size: 1.5em;
+    color: #222222;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: var(--quaternary-color);
+    margin-bottom: 1.5em;
+}
+
+.title {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--quaternary-color);
+    margin-bottom: 1em;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}

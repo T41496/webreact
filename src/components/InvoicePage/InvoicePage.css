@@ -1,0 +1,106 @@
+.invoice-img-sec {
+    text-align: center;
+}
+
+.invoice-img-sec .invoice-sec-img {
+    max-width: 40em;
+}
+
+.invoice-sec {
+    padding:4em 0;
+}
+
+.invoice-sec .invoice-sec-box {
+    padding: 4em;
+    max-width: 600px;
+    margin: 4em auto;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.invoice-sec .invoice-sec-box .invoice-icon-sec  {
+    text-align: center;
+}
+
+.invoice-sec .invoice-sec-box .invoice-icon-sec .invoice-icon {
+    max-width: 10em;
+    margin-bottom: 4em;
+}
+
+.invoice-sec-box .amount-details {
+    width: 100%;
+}
+
+.invoice-sec-box .amount-details .table td {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: 500;
+    border: 1px solid var(--border-color);
+}
+
+.invoice-sec-box .invoice-text {
+    color: var(--tertiary-color);
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 1em;
+}
+
+.invoice-form .form-label{
+    font-size: 1.4em;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.invoice-form .input-group>.input-group-append>.input-group-text {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.2em;
+}
+
+.invoice-form .form-control {
+    font-size: 1.2em;
+    border-right: 1px solid var(--border-color);
+}
+
+.invoice-form .custom-control-label {
+    font-size: 1.2em;
+    color: var(--text-color-grey);
+    padding-top: 2px;
+}
+
+.invoice-form .custom-control {
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.invoice-form .custom-control-input:checked~.custom-control-label::before{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+} 
+
+.payment-type-list {
+    display: flex;
+}
+
+.payment-type-list li {
+    padding-right: 4em;
+}
+
+.invoice-form .paynow-btn {
+    padding: 1rem 4rem;
+    font-size: 1.25em;
+    line-height: 1.5;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: 500;
+    display: inline-block;
+    border:0;
+}
+
+.paynow-btn-sec {
+    text-align: right;
+}
